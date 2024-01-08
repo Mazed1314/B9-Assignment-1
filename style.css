@@ -19,29 +19,28 @@ main p {
 header {
   background-image: url(Images/Banner\ Image.png);
   background-repeat: no-repeat;
-  width: 1120px;
-  height: 490px;
+  background-size: cover;
+  height: 500px;
   border-radius: 16px;
   margin: 40px 70px;
 }
 header .container {
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
-  width: 1120px;
-  height: 490px;
   border-radius: 16px;
+  width: 100%;
   text-align: center;
   color: #fff;
 }
 header .content .header-slog {
   font-size: 20px;
   font-weight: 300;
-  padding: 223px 0px 0px;
+  padding: 177px 0px 0px;
 }
 header .content .header-title {
   font-size: 53px;
   font-weight: 700;
   line-height: 57px;
-  margin: 36px 300px 0px;
+  margin: 34px 300px 0px;
 }
 
 /* section-1 style */
@@ -79,15 +78,12 @@ main #section-1 img {
 main #section-2 {
   background-image: url(Images/Vectorrr.png);
   background-repeat: no-repeat;
-  width: 1120px;
-  height: 490px;
   border-radius: 16px;
   margin: 40px 70px;
+  background-size: cover;
 }
 main #section-2 .section-2-gradiant {
   background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
-  width: 1120px;
-  height: 490px;
   border-radius: 16px;
   display: flex;
   justify-content: space-between;
@@ -105,7 +101,9 @@ main #section-2 p {
   color: rgba(255, 255, 255, 0.8);
   padding: 0px 0 0 126px;
 }
-main #section-2 button {
+main #section-2 button,
+footer .section-3 .btn {
+  /* footer section-3 button also here*/
   color: #fefefe;
   border: 1px solid rgb(255, 255, 255);
   border-radius: 3px;
@@ -117,10 +115,6 @@ main #section-2 button {
   margin: 0px 0 0 126px;
   padding: 5px;
 }
-.btn:hover {
-  background-color: #2ce14100;
-  color: aqua;
-}
 
 /* section-3 style */
 main #section-3 {
@@ -129,8 +123,7 @@ main #section-3 {
     rgba(255, 0, 0, 0.1) 0%,
     rgba(255, 0, 0, 0) 100%
   );
-  width: 1120px;
-  height: 400px;
+
   border-radius: 16px;
   margin: 50px 70px;
 }
@@ -153,8 +146,8 @@ main #section-3 .section-3-contant .btn {
 /* section-4 style */
 
 main #section-4 {
-  width: 1120px;
-  height: 400px;
+  margin: 50px 70px;
+  border-radius: 16px;
   margin: 40px 70px;
   display: flex;
   justify-content: center;
@@ -305,6 +298,7 @@ main #section-7 p {
   padding: 0 250px;
 }
 main #section-7 .subscribe input {
+  width: 220px;
   padding: 15px;
   border: none;
   border-radius: 35px 0 0 35px;
@@ -316,4 +310,51 @@ main #section-7 .subscribe .btn {
   border: none;
   border-radius: 0 35px 35px 0;
   margin: 0 0 0 -6px;
+}
+
+/* footer style */
+
+footer {
+  background-color: #070211;
+  color: #fff;
+  padding: 50px 70px;
+}
+footer .section-1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+footer .section-1 .title {
+  padding: 0 540px 0 0;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 40px;
+}
+footer .section-1 .contact {
+  padding: 0px 80px 0 0;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 34px;
+}
+footer .section-1 .contact img {
+  width: 18px;
+}
+footer .section-2 {
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+footer .section-2 .imp-link img {
+  width: 32px;
+  padding: 0 20px 0 0;
+}
+footer .section-3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+footer .section-3 hr {
+  color: #fff;
 }
