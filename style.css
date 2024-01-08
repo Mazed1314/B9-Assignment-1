@@ -6,7 +6,14 @@ body {
   padding: 0;
   font-family: "Merriweather", serif;
 }
-
+main p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
 /* header related style */
 
 header {
@@ -51,7 +58,6 @@ main #section-1 h2 {
 }
 main #section-1 p {
   color: #f00;
-  font-family: Inter;
   font-size: 16px;
   font-weight: 500;
   margin: 0;
@@ -97,11 +103,6 @@ main #section-2 h2 {
 }
 main #section-2 p {
   color: rgba(255, 255, 255, 0.8);
-  font-family: Inter;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 30px;
   padding: 0px 0 0 126px;
 }
 main #section-2 button {
@@ -210,4 +211,109 @@ main #section-4 .content-3 .text {
   font-size: 20px;
   font-weight: 400;
   line-height: 26px;
+}
+/* section-5 style */
+
+main #section-5 {
+  margin: 50px 70px;
+}
+main #section-5 .content-1 {
+  text-align: center;
+  padding: 0px 260px 30px;
+}
+main #section-5 .content-1 .title span {
+  color: #f00;
+  font-size: 52px;
+  font-weight: 900;
+  line-height: normal;
+}
+main #section-5 .content-1 .title {
+  color: #070211;
+  font-size: 52px;
+  font-weight: 900;
+  line-height: normal;
+}
+main #section-5 .content-2 {
+  display: flex;
+  justify-content: center;
+  text-align: end;
+  position: relative;
+}
+main #section-5 .content-2 .img-1 {
+  position: absolute;
+  margin: 150px 0px 0 -532px;
+}
+main #section-5 .content-2 .img-2 {
+  position: absolute;
+  padding: 175px 0px 0 268px;
+}
+main #section-5 .content-2 .img-3 {
+  width: 429px;
+  margin: 17px 0 -5px 694px;
+}
+main #section-5 .content-3 {
+  width: 100%;
+}
+
+/* section-6 style */
+
+main #section-6 {
+  margin: 60px 70px;
+  text-align: left;
+}
+main #section-6 .slog {
+  color: #f00;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+}
+main #section-6 .title {
+  padding: 0 650px 0 0;
+  font-size: 40px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+main #section-6 .text {
+  padding: 0 480px 0 0;
+}
+main #section-6 .content .row-1,
+.row-2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 25px 0;
+}
+main #section-6 .content img {
+  width: 355px;
+  height: 365px;
+}
+
+/* section-7 style */
+
+main #section-7 {
+  margin: 50px 70px;
+  text-align: center;
+  background-color: rgb(255 0 0 / 9%);
+  padding: 40px 0;
+  border-radius: 16px;
+}
+main #section-7 .title {
+  font-size: 40px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+main #section-7 p {
+  padding: 0 250px;
+}
+main #section-7 .subscribe input {
+  padding: 15px;
+  border: none;
+  border-radius: 35px 0 0 35px;
+}
+main #section-7 .subscribe .btn {
+  background-color: #f00;
+  color: #fff;
+  padding: 15px;
+  border: none;
+  border-radius: 0 35px 35px 0;
+  margin: 0 0 0 -6px;
 }
