@@ -101,9 +101,8 @@ main #section-2 p {
   color: rgba(255, 255, 255, 0.8);
   padding: 0px 0 0 126px;
 }
-main #section-2 button,
-footer .section-3 .btn {
-  /* footer section-3 button also here*/
+main #section-2 .section-2-contant .btn,
+footer .section-3 .btn {                      /* footer section-3 button also here*/
   color: #fefefe;
   border: 1px solid rgb(255, 255, 255);
   border-radius: 3px;
@@ -113,7 +112,7 @@ footer .section-3 .btn {
   font-weight: 400;
   text-transform: uppercase;
   margin: 0px 0 0 126px;
-  padding: 5px;
+  padding: 8px;
 }
 
 /* section-3 style */
@@ -280,6 +279,13 @@ main #section-6 .content img {
   width: 355px;
   height: 365px;
 }
+main #section-6 .content span :hover {
+  width: 380px;
+  height: 400px;
+   border: 10px solid #f00;
+  border-radius: 16px;
+  background-color: #f00;
+} 
 
 /* section-7 style */
 
